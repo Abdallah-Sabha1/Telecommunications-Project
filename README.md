@@ -17,81 +17,55 @@
 
 ---
 
-## The idea
+## The pitch
 
-Telecommunications Project gives network teams one calm, focused place to understand what is happening across their tower estate.
+Telecom operators do not lose money because they lack data. They lose money because the right data is scattered across alarms, spreadsheets, maintenance notes, energy bills, and separate reporting tools.
 
-Instead of moving between alarms, spreadsheets, maintenance notes, energy bills, and sustainability reports, teams can follow one connected operational story:
+Telecommunications Project brings that story together. It shows what changed, where it happened, how serious it is, what it is costing, and who needs to act.
 
-\`\`\`text
-+----------------+     +----------------+     +----------------+
-| Tower readings | --> | Fleet condition| --> | Priority queue |
-+----------------+     +----------------+     +----------------+
-          |                       |                     |
-          v                       v                     v
-   Site history            Business impact       Next action
-          \_______________________________________________/
-\`\`\`
+That means fewer hours spent assembling context, faster decisions in the operations room, and a clearer path from a tower reading to a completed action.
 
-The result is simple: spot the issue, understand the context, assign the work, and measure the outcome.
+## Why a customer would buy it
 
-## Why it matters
+When a tower is technically online but consuming more power, running hotter, or becoming less efficient, the cost is already accumulating. The problem is not visibility alone; it is the delay between the first warning and the right response.
 
-A tower can stay online while its cost rises, its efficiency falls, and its risk quietly increases. Small changes in temperature, electricity use, generator activity, or network load can become expensive operational problems when they are discovered too late.
+The product gives every stakeholder a reason to open it:
 
-Telecommunications Project makes those changes visible early and gives every team the same picture:
+- **Operations leaders** see the network condition and the work that matters now.
+- **Engineers** get the tower history and evidence before they travel or intervene.
+- **Finance teams** see where energy spend is moving and which sites deserve attention.
+- **Sustainability teams** connect emissions reporting to the sites creating the result.
 
-- Network leaders see the health of the estate.
-- Engineers see the evidence behind a problem.
-- Operations teams see what needs attention first.
-- Finance teams see the cost of energy.
-- Sustainability teams see the carbon contribution of each site.
+The value proposition is direct: make the next operational decision faster, with the full business context in front of the person making it.
 
-## The project flow
+## The operating flow
 
-### 1. Enter the operations workspace
+```text
+Tower readings -> Fleet condition -> Priority queue -> Site history -> Business impact -> Next action
+```
 
-Start with a clear view of the network and move directly to the area that needs attention.
-
-### 2. Understand fleet health
-
-See healthy, warning, critical, and unknown tower conditions together with the main operational trends.
-
-### 3. Open a tower
-
-Move from the fleet view to one site and inspect its latest readings, history, and operating context.
-
-### 4. Review incidents
-
-Turn unusual conditions into a practical queue of incidents with priority, ownership, evidence, and status.
-
-### 5. Decide what happens next
-
-Use the available context to choose the next inspection, assignment, or corrective action.
-
-### 6. Measure cost and sustainability
-
-Connect operational performance with energy spend, efficiency, emissions, and site-level opportunities.
-
-### 7. Report the result
-
-Give management a clear summary of network condition, operating cost, and environmental performance.
+1. **Read the network.** Bring tower readings and operating conditions into one view.
+2. **Find the priority.** Separate normal activity from towers that need attention.
+3. **Open the context.** Review site history, trends, and the evidence behind the change.
+4. **Assign the work.** Give the issue an owner, a status, and a next step.
+5. **Measure the outcome.** Connect operational performance with energy cost and carbon impact.
+6. **Report with confidence.** Give management a concise view of what changed and what happens next.
 
 ## Complete visual walkthrough
 
-The following gallery shows the full supplied product sequence, from entry into the platform through fleet monitoring, tower investigation, incident handling, energy performance, and carbon reporting.
+The gallery below shows every supplied enhanced screenshot in the product journey, from the first screen through fleet monitoring, tower investigation, incident handling, energy performance, and carbon reporting.
 
-### 1. Welcome and product entry
+### 1. Welcome
 
-<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155753.png" alt="Welcome and product entry" width="900" />
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155753.png" alt="Welcome" width="900" />
 
 ### 2. Operations overview
 
 <img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155759%20-%20Copy.png" alt="Operations overview" width="900" />
 
-### 3. Fleet health at a glance
+### 3. Fleet health
 
-<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155759.png" alt="Fleet health at a glance" width="900" />
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155759.png" alt="Fleet health" width="900" />
 
 ### 4. Network status
 
@@ -105,9 +79,9 @@ The following gallery shows the full supplied product sequence, from entry into 
 
 <img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155841%20-%20Copy.png" alt="Tower directory" width="900" />
 
-### 7. Tower status details
+### 7. Tower status
 
-<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155841.png" alt="Tower status details" width="900" />
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155841.png" alt="Tower status" width="900" />
 
 ### 8. Incident workspace
 
@@ -125,17 +99,17 @@ The following gallery shows the full supplied product sequence, from entry into 
 
 <img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155854.png" alt="Incident detail" width="900" />
 
-### 12. Operational trend view
+### 12. Operational trends
 
-<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155859.png" alt="Operational trend view" width="900" />
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155859.png" alt="Operational trends" width="900" />
 
 ### 13. Energy overview
 
 <img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155902.png" alt="Energy overview" width="900" />
 
-### 14. Energy cost view
+### 14. Energy cost
 
-<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155952.png" alt="Energy cost view" width="900" />
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155952.png" alt="Energy cost" width="900" />
 
 ### 15. Tower performance
 
@@ -194,33 +168,28 @@ The following gallery shows the full supplied product sequence, from entry into 
 <img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160743.png" alt="Final operations view" width="900" />
 
 
-## What teams can do
+## What changes for the customer
 
-### Network operations
+### A sharper operations room
 
-- See the most important tower conditions immediately.
-- Prioritise work by urgency and business impact.
-- Keep ownership and incident status visible.
-- Move from a fleet-level view to a specific site without losing context.
+The team starts with the few towers that need attention instead of manually combining information from multiple systems.
 
-### Reliability and field engineering
+### Better field decisions
 
-- Review recent readings before dispatch.
-- Compare current behaviour with site history.
-- Keep the evidence, notes, and follow-up action together.
-- Track work from first observation to resolution.
+Engineers arrive with the site history and supporting evidence already in view, reducing guesswork and unnecessary follow-up.
 
-### Finance and sustainability
+### Lower operating leakage
 
-- Understand electricity consumption and spend by site.
-- Compare tower efficiency across the estate.
-- Identify the locations with the greatest cost and emissions contribution.
-- Prepare clear reports from the same operational information used every day.
+Energy and efficiency comparisons make it easier to spot expensive sites, understand the pattern, and prioritise practical improvements.
+
+### A clearer management story
+
+Network condition, cost, and environmental performance can be discussed together, using the same operational picture.
 
 ## Product capabilities
 
-- Fleet health classification for healthy, warning, critical, and unknown conditions
-- Tower-level readings for electricity, temperature, network load, and operating status
+- Fleet health classification across healthy, warning, critical, and unknown conditions
+- Tower readings for electricity, temperature, network load, and operating status
 - Searchable incident workflows with priority, status, assignment, and evidence
 - Site history and trend views for investigation
 - Energy cost, consumption, efficiency, and site comparison
@@ -243,7 +212,7 @@ The following gallery shows the full supplied product sequence, from entry into 
 
 ## Application structure
 
-\`\`\`text
+```text
 backend/
 ├── Aithos.Api             # API endpoints and controllers
 ├── Aithos.Application     # Use cases, services, DTOs, and feature logic
@@ -257,33 +226,33 @@ frontend/
 └── public/                # Logo and static assets
 
 docs/                      # Architecture notes and complete screenshot galleries
-\`\`\`
+```
 
 ## Getting started
 
 ### Backend
 
-\`\`\`bash
+```bash
 cd backend
 dotnet restore TelecommunicationsPlatform.slnx
 dotnet run --project Aithos.Api
-\`\`\`
+```
 
 ### Frontend
 
-\`\`\`bash
+```bash
 cd frontend
 npm install
 npm run dev
-\`\`\`
+```
 
-Use the example configuration files in \`backend/Aithos.Api/\` and \`frontend/\` for local setup.
+Use the example configuration files in `backend/Aithos.Api/` and `frontend/` for local setup.
 
 ## Project scope
 
 This repository contains the Clean Architecture version of Telecommunications Project: the backend layers, the frontend, persistence, configuration examples, logo, architecture notes, and complete supplied screenshots.
 
-The product is designed as a strong operational foundation that can grow with the organisation—from a focused demonstration to a connected production environment with live data, identity management, notifications, audit history, and deployment-specific controls.
+It is a strong operational foundation that can grow from a focused demonstration into a connected production environment with live data, identity management, notifications, audit history, and deployment-specific controls.
 
 ---
 

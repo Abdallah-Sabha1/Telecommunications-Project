@@ -10,154 +10,256 @@
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![SQL Server](https://img.shields.io/badge/SQL_Server-EF_Core-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/sql-server)
-[![Claude](https://img.shields.io/badge/AI-Claude-D97757?style=flat-square)](https://www.anthropic.com/claude)
 
-**A full-stack telecom operations platform for network health, incident response, energy cost, and carbon performance.**
+**A practical operations platform for telecom towers, built to turn network data into clear decisions.**
 
 </div>
 
 ---
 
-## Overview
+## The idea
 
-A telecom tower can remain online while becoming more expensive, less efficient, and more likely to fail. Grid instability increases generator runtime, cooling problems raise cabinet temperature, and traffic shifts reduce capacity headroom. Telecommunications Project brings these signals into one operating workspace.
+Telecommunications Project gives network teams one calm, focused place to understand what is happening across their tower estate.
 
-The platform connects tower telemetry, anomaly detection, incidents, evidence, ownership, energy intelligence, carbon reporting, and AI-assisted recommendations into one practical flow:
+Instead of moving between alarms, spreadsheets, maintenance notes, energy bills, and sustainability reports, teams can follow one connected operational story:
 
 \`\`\`text
-Telemetry -> Anomaly -> Incident -> Explanation -> Action
++----------------+     +----------------+     +----------------+
+| Tower readings | --> | Fleet condition| --> | Priority queue |
++----------------+     +----------------+     +----------------+
+          |                       |                     |
+          v                       v                     v
+   Site history            Business impact       Next action
+          \_______________________________________________/
 \`\`\`
 
-The backend remains the source of truth for official severity, incident state, consumption, cost, and carbon calculations. AI explains the evidence and recommends action without changing those business metrics.
+The result is simple: spot the issue, understand the context, assign the work, and measure the outcome.
 
-## The Business Problem
+## Why it matters
 
-Telecom operations data is often split across alarms, readings, energy records, maintenance workflows, and sustainability reports. That fragmentation creates four expensive gaps:
+A tower can stay online while its cost rises, its efficiency falls, and its risk quietly increases. Small changes in temperature, electricity use, generator activity, or network load can become expensive operational problems when they are discovered too late.
 
-| Business pressure | How the platform responds |
-|---|---|
-| **Slow incident triage** | Prioritises towers and places supporting telemetry beside each alert |
-| **Uncontrolled energy spend** | Calculates electricity cost, efficiency, and site-level comparisons |
-| **Reactive maintenance** | Connects abnormal readings with evidence, likely causes, and next actions |
-| **Disconnected carbon reporting** | Calculates emissions from the same operational data used by the network team |
+Telecommunications Project makes those changes visible early and gives every team the same picture:
 
-## The Product Experience
+- Network leaders see the health of the estate.
+- Engineers see the evidence behind a problem.
+- Operations teams see what needs attention first.
+- Finance teams see the cost of energy.
+- Sustainability teams see the carbon contribution of each site.
 
-### 1. A Focused Operations Workspace
+## The project flow
 
-![Telecommunications Project operations workspace](docs/New%20Orange%20Project%20Screenshoots/Screenshot%202026-10-04%20155753.png)
+### 1. Enter the operations workspace
 
-The frontend provides a dedicated workspace for tower telemetry, incident detection, energy performance, AI results, and carbon reporting. The current repository includes both live API integration and an explicit demonstration mode.
+Start with a clear view of the network and move directly to the area that needs attention.
 
-### 2. Fleet Health at a Glance
+### 2. Understand fleet health
 
-![Telecommunications Project fleet health dashboard](docs/New%20Orange%20Project%20Screenshoots/Screenshot%202026-10-04%20155759.png)
+See healthy, warning, critical, and unknown tower conditions together with the main operational trends.
 
-The dashboard brings fleet status, warnings, critical towers, trends, open incidents, and operational priorities into one view.
+### 3. Open a tower
 
-### 3. Priority Incidents Carry Their Evidence
+Move from the fleet view to one site and inspect its latest readings, history, and operating context.
 
-![Telecommunications Project incident workspace](docs/New%20Orange%20Project%20Screenshoots/Screenshot%202026-10-04%20155831.png)
+### 4. Review incidents
 
-Incidents preserve severity, tower and site context, evidence, likely causes, financial impact, carbon impact, ownership, workflow status, and recommended action.
+Turn unusual conditions into a practical queue of incidents with priority, ownership, evidence, and status.
 
-### 4. Tower, Energy, and Carbon Intelligence
+### 5. Decide what happens next
 
-![Telecommunications Project tower and reporting experience](docs/New%20Orange%20Project%20Screenshoots/Screenshot%202026-10-04%20160022.png)
+Use the available context to choose the next inspection, assignment, or corrective action.
 
-Operators can inspect individual tower readings, energy and cost trends, site comparisons, carbon totals, monthly emissions, and the highest-impact locations.
+### 6. Measure cost and sustainability
 
-## From Alert to Resolution
+Connect operational performance with energy spend, efficiency, emissions, and site-level opportunities.
 
-The application is organised around an operational workflow rather than a collection of disconnected charts:
+### 7. Report the result
 
-1. Import or receive tower, reading, energy-price, and validated AI-result data.
-2. Classify tower health and identify abnormal telemetry.
-3. Group findings into incidents that operators can review and manage.
-4. Inspect readings, evidence, history, and AI-assisted explanations.
-5. Assign ownership, track workflow status, and record the recommended action.
-6. Measure energy, cost, and carbon impact through the same operational data.
+Give management a clear summary of network condition, operating cost, and environmental performance.
 
-The objective is not to replace engineering judgement. It is to give that judgement a faster, better-evidenced starting point.
+## Complete visual walkthrough
 
-## Financial and Sustainability Intelligence
+The following gallery shows the full supplied product sequence, from entry into the platform through fleet monitoring, tower investigation, incident handling, energy performance, and carbon reporting.
 
-### Energy Cost Becomes Operational Data
+### 1. Welcome and product entry
 
-The energy experience reports electricity consumption, electricity spend, monthly trends, site comparisons, and measured efficiency. Calculations use imported monthly electricity prices when available.
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155753.png" alt="Welcome and product entry" width="900" />
 
-### Carbon Reporting Uses the Same Operational Truth
+### 2. Operations overview
 
-The carbon experience reports CO2e totals, monthly emissions trends, highest-emitting locations, and downloadable reporting data using the configured project emissions factor.
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155759%20-%20Copy.png" alt="Operations overview" width="900" />
 
-Missing measurements remain unknown rather than being treated as confirmed operational states, and savings are presented as opportunities to measure against a real baseline—not guaranteed claims.
+### 3. Fleet health at a glance
 
-## Business Value
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155759.png" alt="Fleet health at a glance" width="900" />
 
-**For network operations leaders**
+### 4. Network status
 
-- See fleet health and the most urgent operational risk in one view
-- Reduce time spent gathering evidence before triage
-- Track incident ownership and resolution consistently
-- Compare network condition with financial and carbon exposure
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155831%20-%20Copy.png" alt="Network status" width="900" />
 
-**For field and reliability engineers**
+### 5. Operational priorities
 
-- Review tower readings and recent telemetry before dispatch
-- Work from ranked causes, evidence, confidence, and recommended actions
-- Recognise recurring site patterns and related incidents
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155831.png" alt="Operational priorities" width="900" />
 
-**For finance and sustainability teams**
+### 6. Tower directory
 
-- Understand energy consumption and electricity spend by site
-- Benchmark efficiency across the tower estate
-- Track carbon impact from operational consumption data
-- Identify locations contributing the greatest cost and carbon burden
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155841%20-%20Copy.png" alt="Tower directory" width="900" />
 
-## Key Capabilities
+### 7. Tower status details
 
-- Fleet health classification across healthy, warning, critical, and unknown states
-- Tower-level electricity, temperature, network-load, and operational telemetry
-- Incident review and workflow management with severity, status, ownership, and evidence
-- AI-assisted explanations and recommendations with official metrics protected in the backend
-- CSV and structured JSON import flows for project data
-- Energy, cost, efficiency, and carbon calculations
-- Carbon report generation and PDF-oriented reporting flows
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155841.png" alt="Tower status details" width="900" />
+
+### 8. Incident workspace
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155850%20-%20Copy.png" alt="Incident workspace" width="900" />
+
+### 9. Incident queue
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155850.png" alt="Incident queue" width="900" />
+
+### 10. Incident investigation
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155854%20-%20Copy.png" alt="Incident investigation" width="900" />
+
+### 11. Incident detail
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155854.png" alt="Incident detail" width="900" />
+
+### 12. Operational trend view
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155859.png" alt="Operational trend view" width="900" />
+
+### 13. Energy overview
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155902.png" alt="Energy overview" width="900" />
+
+### 14. Energy cost view
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20155952.png" alt="Energy cost view" width="900" />
+
+### 15. Tower performance
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160016.png" alt="Tower performance" width="900" />
+
+### 16. Energy comparison
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160022.png" alt="Energy comparison" width="900" />
+
+### 17. Site benchmarking
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160028.png" alt="Site benchmarking" width="900" />
+
+### 18. Carbon overview
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160032.png" alt="Carbon overview" width="900" />
+
+### 19. Carbon reporting
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160057.png" alt="Carbon reporting" width="900" />
+
+### 20. Emissions trend
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160118.png" alt="Emissions trend" width="900" />
+
+### 21. Tower readings
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160127.png" alt="Tower readings" width="900" />
+
+### 22. Tower history
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160131.png" alt="Tower history" width="900" />
+
+### 23. Operational analysis
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160137.png" alt="Operational analysis" width="900" />
+
+### 24. Performance summary
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160142.png" alt="Performance summary" width="900" />
+
+### 25. Reporting workspace
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160720.png" alt="Reporting workspace" width="900" />
+
+### 26. Management view
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160726.png" alt="Management view" width="900" />
+
+### 27. Site comparison
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160734.png" alt="Site comparison" width="900" />
+
+### 28. Final operations view
+
+<img src="docs/Enhanced%20Screenshots/Production%20Version%20Of%20Orange%20Project/Screenshot%202026-10-04%20160743.png" alt="Final operations view" width="900" />
+
+
+## What teams can do
+
+### Network operations
+
+- See the most important tower conditions immediately.
+- Prioritise work by urgency and business impact.
+- Keep ownership and incident status visible.
+- Move from a fleet-level view to a specific site without losing context.
+
+### Reliability and field engineering
+
+- Review recent readings before dispatch.
+- Compare current behaviour with site history.
+- Keep the evidence, notes, and follow-up action together.
+- Track work from first observation to resolution.
+
+### Finance and sustainability
+
+- Understand electricity consumption and spend by site.
+- Compare tower efficiency across the estate.
+- Identify the locations with the greatest cost and emissions contribution.
+- Prepare clear reports from the same operational information used every day.
+
+## Product capabilities
+
+- Fleet health classification for healthy, warning, critical, and unknown conditions
+- Tower-level readings for electricity, temperature, network load, and operating status
+- Searchable incident workflows with priority, status, assignment, and evidence
+- Site history and trend views for investigation
+- Energy cost, consumption, efficiency, and site comparison
+- Carbon totals, trends, contributors, and reporting
+- CSV and JSON import flows for project data
 - SQL Server persistence through Entity Framework Core
-- Explicit demonstration mode when the live API is unavailable
+- Responsive React and TypeScript interface for daily operations
 
 ## Technology
 
-| | |
+| Area | Stack |
 |---|---|
-| **Frontend** | React 19 + TypeScript + Vite |
-| **Routing and state** | TanStack Router + TanStack Query |
-| **Interface** | Tailwind CSS 4 + Radix UI primitives |
-| **Visualisation** | Recharts |
-| **Backend** | ASP.NET Core 10 + REST endpoints |
-| **Persistence** | Entity Framework Core 10 + SQL Server |
-| **AI** | Claude integration for structured explanations and recommendations |
-| **Reporting** | QuestPDF and jsPDF-oriented report flows |
+| Frontend | React 19, TypeScript, Vite |
+| Application state | TanStack Router and TanStack Query |
+| Interface | Tailwind CSS 4 and Radix UI primitives |
+| Charts | Recharts |
+| Backend | ASP.NET Core 10 |
+| Persistence | Entity Framework Core 10 and SQL Server |
+| Reports | QuestPDF and jsPDF-oriented report flows |
 
-## Application Structure
+## Application structure
 
 \`\`\`text
 backend/
-├── Aithos.Api             # ASP.NET Core API and controllers
-├── Aithos.Application     # Use cases, DTOs, services, and feature logic
+├── Aithos.Api             # API endpoints and controllers
+├── Aithos.Application     # Use cases, services, DTOs, and feature logic
 ├── Aithos.Domain          # Domain entities and business rules
-└── Aithos.Infrastructure  # EF Core persistence and external integrations
+└── Aithos.Infrastructure  # Database and external integrations
 
 frontend/
 ├── src/pages/             # Dashboard, towers, incidents, energy, carbon, and login
-├── src/components/        # Product-specific and reusable UI components
-├── src/lib/               # API client, types, formatting, PDFs, and demo data
-└── public/                # Aithos logo and frontend static assets
+├── src/components/        # Product and reusable interface components
+├── src/lib/               # API client, types, formatting, reports, and demo data
+└── public/                # Logo and static assets
 
-docs/                      # Architecture notes and product screenshots
+docs/                      # Architecture notes and complete screenshot galleries
 \`\`\`
 
-## Getting Started
+## Getting started
 
 ### Backend
 
@@ -167,8 +269,6 @@ dotnet restore TelecommunicationsPlatform.slnx
 dotnet run --project Aithos.Api
 \`\`\`
 
-Copy \`backend/Aithos.Api/appsettings.example.json\` to a local settings file and provide the required connection and integration settings.
-
 ### Frontend
 
 \`\`\`bash
@@ -177,13 +277,13 @@ npm install
 npm run dev
 \`\`\`
 
-Use the environment examples in \`frontend/\` for local, demo, and production-style configuration.
+Use the example configuration files in \`backend/Aithos.Api/\` and \`frontend/\` for local setup.
 
-## Project Scope
+## Project scope
 
-This repository is the Clean Architecture version of Telecommunications Project. It contains the React frontend, ASP.NET Core backend, application/domain/infrastructure layers, EF Core persistence, configuration examples, project logo, architecture notes, and supplied product screenshots.
+This repository contains the Clean Architecture version of Telecommunications Project: the backend layers, the frontend, persistence, configuration examples, logo, architecture notes, and complete supplied screenshots.
 
-It replaces obsolete descriptions from the archived production-version repository with documentation that reflects the code and assets included here. Credentials, local configuration, datasets containing secrets, and build outputs are intentionally excluded.
+The product is designed as a strong operational foundation that can grow with the organisation—from a focused demonstration to a connected production environment with live data, identity management, notifications, audit history, and deployment-specific controls.
 
 ---
 

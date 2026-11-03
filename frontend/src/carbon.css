@@ -1,0 +1,152 @@
+.carbon-hero {
+  margin-bottom: 34px;
+}
+
+.carbon-actions {
+  display: flex;
+  gap: 14px;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.carbon-badge-card {
+  min-width: 250px;
+  padding: 18px;
+}
+
+.carbon-badge-card strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.carbon-badge-card small {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.carbon-cards,
+.carbon-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.carbon-card {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: var(--shadow);
+}
+
+.carbon-card.total {
+  background: linear-gradient(180deg, #1b4134 0%, #15332a 100%);
+  color: #edf5f1;
+  border-color: #17392e;
+}
+
+.carbon-card.total .eyebrow,
+.carbon-card.total span {
+  color: #b9cdc3;
+}
+
+.carbon-card strong {
+  margin: 16px 0 12px;
+}
+
+.carbon-card span {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.carbon-summary-grid {
+  margin-top: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.summary-card {
+  padding: 22px;
+}
+
+.summary-card h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  letter-spacing: -0.03em;
+}
+
+.summary-card p {
+  margin: 0;
+}
+
+.carbon-loading {
+  min-height: 180px;
+}
+
+.carbon-layout {
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.chart-section,
+.contributors-section,
+.narrative-card {
+  min-height: 100%;
+}
+
+.compact {
+  margin-bottom: 12px;
+}
+
+.contributors-list {
+  display: grid;
+  gap: 12px;
+}
+
+.contributor-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.contributor-row:last-child {
+  border-bottom: 0;
+}
+
+.contributor-row strong,
+.contributor-row small {
+  display: block;
+}
+
+.contributor-row small {
+  margin-top: 4px;
+  color: var(--muted);
+}
+
+.contributor-row span {
+  font-family: "DM Mono", monospace;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.carbon-action-list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.carbon-action-list li + li {
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .carbon-layout {
+    grid-template-columns: 1fr;
+  }
+}

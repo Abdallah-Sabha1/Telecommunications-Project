@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Aithos.Api/Aithos.Api.csproj" />
+  <Project Path="Aithos.Domain/Aithos.Domain.csproj" />
+  <Project Path="Aithos.Application/Aithos.Application.csproj" />
+  <Project Path="Aithos.Infrastructure/Aithos.Infrastructure.csproj" />
+</Solution>
